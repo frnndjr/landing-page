@@ -17,9 +17,12 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
-
+.logo {
+    padding-top: 30px;
+}
 
 ul{
     align-items: center;
@@ -89,6 +92,7 @@ main{
     color: #1f2937;
     margin-top: 20px;
     font-size: 26pt;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .boxes{
@@ -123,12 +127,8 @@ main{
 
 }
 
-}
 
-blockquote{
-   
-    
-}
+
 
 blockquote p {
     background-color: #e5e7eb;
@@ -141,4 +141,49 @@ blockquote p {
     justify-content: center;
     padding-left: 130px;
     padding-right: 130px;
+}
+
+.wrap {
+ 
+    height: 20vh;
+    background-color: #3882f6;
+    margin: 100px 100px;
+  
+    
+   
+
+    
+}
+
+.download-cta {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-top: 100px;
+    color: #1f2937;
+   
+}
+
+.download-btn2{
+    border: 1px solid white;
+    background-color: #3882f6;
+    border-radius: 10%;
+    padding: 10px 30px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+
+span{
+    color: yellowgreen;
 }
